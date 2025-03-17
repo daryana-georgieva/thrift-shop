@@ -1,0 +1,45 @@
+﻿<Window x:Class="finalproject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:finalproject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="832" Width="1280">
+    <Grid Background="#FFBBBBF6">
+        <Border BorderBrush="White" CornerRadius="50,0,0,50" BorderThickness="1" Height="802" VerticalAlignment="Top" Background="White" Margin="595,0,-0.4,0">
+            <Label x:Name="shoplabel" Content="vtorata upotreba" FontSize="96" HorizontalAlignment="Center" FontFamily="/finalproject;component/resourcess/#Barriecito" Margin="210.2,115.2,172.2,1097.6" Foreground="#FF5F60B9"/>
+        </Border>
+        <Label x:Name="signuplabel" Content="Create an account" HorizontalAlignment="Left" Margin="1088,247,0,1007.4" VerticalAlignment="Center" FontSize="72" FontFamily="./#Inter Thin" Width="619" RenderTransformOrigin="0.685,0.442"/>
+        <Grid Margin="1038,358,206.6,394.4">
+            <Grid Margin="-352,0,-193,-135">
+                <TextBox x:Name="usernametxt" HorizontalAlignment="Left" Height="45" Margin="-19,-179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" FontSize="24" FontFamily="Global Monospace"/>
+                <Label x:Name="usernamelabel" FontSize="24" Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold Condensed" Margin="-19,-219,0,0"/>
+            </Grid>
+            <TextBox x:Name="emailtxt" HorizontalAlignment="Left" Height="45" Margin="-368,-96,-136,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="533" FontFamily="Global Monospace" FontSize="24"/>
+            <Label x:Name="emaillabel" Content="Email" HorizontalAlignment="Left" Margin="-368,-133,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Gill Sans Ultra Bold Condensed" Height="37" Width="117"/>
+        </Grid>
+        <TextBox x:Name="addresstxt" FontFamily="Global Monospace" HorizontalAlignment="Left" Height="45" Margin="670,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" FontSize="24"/>
+        <PasswordBox x:Name="passwordtxt" FontFamily="Global Monospace" HorizontalAlignment="Left" Margin="670,345,0,0" VerticalAlignment="Top" Height="45" Width="552" FontSize="24" />
+        <TextBox x:Name="cardnumtxt" FontFamily="Global Monospace" HorizontalAlignment="Left" Height="45" Margin="670,498,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" FontSize="24"/>
+        <Label x:Name="passwordlabel" Content="Password" HorizontalAlignment="Left" Margin="670,308,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Gill Sans Ultra Bold Condensed" Height="43"/>
+        <Label x:Name="addresslabel" Content="Address" HorizontalAlignment="Left" Margin="670,384,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Gill Sans Ultra Bold Condensed"/>
+        <Label x:Name="cardnumlabel" Content="Card number" HorizontalAlignment="Left" Margin="670,461,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Gill Sans Ultra Bold Condensed"/>
+        <Button Content="SIGN UP" HorizontalAlignment="Left" Margin="838,576,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="229" Height="60" FontSize="24" BorderBrush="#FFBBBBF6" Background="#FFBBBBF6" FontFamily="Rockwell Extra Bold" Click="Button_Click" Foreground="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label x:Name="shoplabel_Copy" Content="vtorata upotreba" FontSize="60" HorizontalAlignment="Center" FontFamily="/finalproject;component/resourcess/#Barriecito" Margin="705,-8,-299.4,689.4" Foreground="#FF5F60B9" Width="868"/>
+        <Label x:Name="signuplabel_Copy" Content="Create an account" HorizontalAlignment="Left" Margin="605,39,-0.4,667.4" VerticalAlignment="Center" FontSize="48" FontFamily="/finalproject;component/resourcess/#Bungee Shade" HorizontalContentAlignment="Center" Width="669" RenderTransformOrigin="0.685,0.442" Height="96"/>
+        <Image HorizontalAlignment="Left" Height="353" Margin="15,122,0,0" VerticalAlignment="Top" Width="280" Source="resourcess/sweater.png"/>
+        <Image HorizontalAlignment="Left" Height="302" Margin="290,243,0,0" VerticalAlignment="Top" Width="303" Source="resourcess/jacket.png"/>
+        <Image HorizontalAlignment="Left" Height="286" Margin="52,505,0,0" VerticalAlignment="Top" Width="286" Source="resourcess/tshirt.png"/>
+        <Image HorizontalAlignment="Left" Height="141" Margin="295,94,0,0" VerticalAlignment="Top" Width="182" Source="resourcess/Frame 2.png"/>
+        <Image HorizontalAlignment="Left" Height="141" Margin="0,404,0,0" VerticalAlignment="Top" Width="182" Source="resourcess/Frame 2.png"/>
+        <Image HorizontalAlignment="Left" Height="141" Margin="443,661,0,0" VerticalAlignment="Top" Width="182" Source="resourcess/Frame 2.png"/>
+
+    </Grid>
+</Window>

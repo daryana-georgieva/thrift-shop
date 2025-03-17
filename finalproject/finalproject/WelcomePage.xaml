@@ -1,0 +1,34 @@
+﻿<Window x:Class="finalproject.WelcomePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:finalproject"
+        mc:Ignorable="d"
+        Title="WelcomePage" Height="832" Width="1280">
+    <Grid Background="#FFBBBBF6">
+        <Image HorizontalAlignment="Left" Height="731" Margin="385,71,0,0" VerticalAlignment="Top" Width="580" Source="C:\Users\User\Desktop\ACS\12th grade\final project\finalproject\finalproject\resourcess\Frame 1 (1).png"/>
+        <Label Content="Reuse and Recycle" HorizontalAlignment="Left" Margin="6,213,0,0" VerticalAlignment="Top" FontFamily="/finalproject;component/resourcess/#Bungee Shade" FontSize="100" Panel.ZIndex="-58" Foreground="White"/>
+        <Image HorizontalAlignment="Left" Height="91" Margin="144,117,0,0" VerticalAlignment="Top" Width="118" Source="C:\Users\User\Desktop\ACS\12th grade\final project\finalproject\finalproject\resourcess\Frame 2.png"/>
+        <Grid Margin="115,657,1220.6,438.4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Center" TextWrapping="Wrap" Text="The clothing industry is extremely harmful to the environment. Help out our planet by thrifting your clothes! Here you will find the most trendy and luxurious second-hand items." VerticalAlignment="Top" Foreground="White" FontFamily="./#Inter Thin" FontSize="22" Width="442" Margin="-83,-204,-359,-14" Grid.ColumnSpan="2" Height="218"/>
+            <Button x:Name="submitbtn" Content="Show Now" HorizontalAlignment="Left" Margin="10,-56,-258,-14" VerticalAlignment="Top" Width="248" Height="70" FontSize="22" FontFamily="/finalproject;component/resourcess/#Bungee Shade" BorderBrush="White" Foreground="#FF5F60B9" Background="White" Grid.ColumnSpan="2" Click="shopnowbtn_Click">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="76" Margin="867,657,0,0" VerticalAlignment="Top" Width="98" Source="resourcess/Frame 2.png"/>
+        <Image HorizontalAlignment="Left" Height="101" Margin="1126,219,0,0" VerticalAlignment="Top" Width="131" Source="resourcess/Frame 2.png"/>
+        <Label x:Name="shoplabel" Content="vtorata upotreba" FontSize="96" HorizontalAlignment="Center" FontFamily="/finalproject;component/resourcess/#Barriecito" Foreground="White" Width="715" Margin="296,-14,262.6,684.4"/>
+        <Image HorizontalAlignment="Left" Height="360" Margin="894,432,0,0" VerticalAlignment="Top" Width="368" Source="C:\Users\User\Downloads\uosweater.png"/>
+        <Button x:Name="homebtn" Content="HOME" HorizontalAlignment="Left" Margin="62,55,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="/finalproject;component/resourcess/#Inter Thin" FontSize="16" Click="homebtn_Click"/>
+        <Button x:Name="shopbtn" Content="SHOP" HorizontalAlignment="Left" Margin="142,55,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="/finalproject;component/resourcess/#Inter Thin" FontSize="16" Click="shopbtn_Click"/>
+    </Grid>
+</Window>

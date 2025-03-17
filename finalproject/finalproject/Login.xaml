@@ -1,0 +1,44 @@
+﻿<Window x:Class="finalproject.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:finalproject"
+        mc:Ignorable="d"
+        Title="Login" Height="832" Width="1280">
+    <Grid Background="#FFBBBBF6" Margin="0,2,0.2,-0.2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="713*"/>
+            <ColumnDefinition Width="786*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="White" CornerRadius="50,0,0,50" BorderThickness="1" Background="White" Margin="27.2,0,0,0" Grid.Column="1">
+            <Label x:Name="shoplabel" Content="vtorata upotreba" FontSize="80" HorizontalAlignment="Center" FontFamily="/finalproject;component/resourcess/#Barriecito" Margin="26.2,91.2,-255,587" Foreground="#FF5F60B9" Width="868"/>
+        </Border>
+        <Label x:Name="signuplabel" Content="Log In" HorizontalAlignment="Left" Margin="604,149,0,494.6" VerticalAlignment="Center" FontSize="72" FontFamily="/finalproject;component/resourcess/#Bungee Shade" HorizontalContentAlignment="Center" Width="669" RenderTransformOrigin="0.685,0.442" Height="157" Grid.ColumnSpan="2"/>
+        <Grid Margin="383.2,363,148,456" Grid.Column="1">
+            <Grid Margin="0,0,0,194">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="usernametxt" FontFamily="Global Monospace" HorizontalAlignment="Left" Height="53" Margin="-300,1,-115.2,-54" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" FontSize="24" Grid.ColumnSpan="2"/>
+                <Label x:Name="usernamelabel" FontSize="24" Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold Condensed" Height="42" Margin="-300,-41,0,-1"/>
+            </Grid>
+        </Grid>
+        <PasswordBox x:Name="passwordtxt" FontFamily="Global Monospace" HorizontalAlignment="Left" Margin="83.4,478,0,0" VerticalAlignment="Top" Height="45" Width="546" Grid.Column="1" FontSize="24" />
+        <Label x:Name="passwordlabel" Content="Password" HorizontalAlignment="Left" Margin="83.2,440,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Gill Sans Ultra Bold Condensed" Grid.Column="1"/>
+        <Button Content="LOG IN" HorizontalAlignment="Left" Margin="234.4,549,0,0" VerticalAlignment="Top" Width="229" Height="60" FontSize="24" BorderBrush="#FFBBBBF6" Background="#FFBBBBF6" FontFamily="Gill Sans Ultra Bold Condensed" Click="Button_Click" Grid.Column="1" Foreground="White">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="302" Margin="290,243,0,0" VerticalAlignment="Top" Width="303" Source="C:\Users\User\Desktop\ACS\12th grade\final project\finalproject\finalproject\resourcess\jacket.png"/>
+        <Image HorizontalAlignment="Left" Height="286" Margin="52,505,0,0" VerticalAlignment="Top" Width="286" Source="C:\Users\User\Desktop\ACS\12th grade\final project\finalproject\finalproject\resourcess\tshirt.png"/>
+        <Image HorizontalAlignment="Left" Height="141" Margin="0,404,0,0" VerticalAlignment="Top" Width="182" Source="resourcess/Frame 2.png"/>
+        <Image HorizontalAlignment="Left" Height="141" Margin="443,661,0,-1.4" VerticalAlignment="Top" Width="182" Source="resourcess/Frame 2.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="353" Margin="15,122,0,0" VerticalAlignment="Top" Width="280" Source="resourcess/sweater.png"/>
+        <Image HorizontalAlignment="Left" Height="141" Margin="295,94,0,0" VerticalAlignment="Top" Width="182" Source="resourcess/Frame 2.png"/>
+    </Grid>
+</Window>

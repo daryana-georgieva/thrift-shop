@@ -1,0 +1,38 @@
+﻿<Window x:Class="finalproject.ShopOverview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:finalproject"
+        mc:Ignorable="d"
+        Title="ShopOverview" Height="832" Width="1280">
+    <Grid Background="#FFBBBBF6">
+        <Label x:Name="shoplabel" Content="vtorata upotreba" FontSize="96" HorizontalAlignment="Center" FontFamily="/finalproject;component/resourcess/#Barriecito" Foreground="White" Width="715" Margin="296,-14,262.6,684.4"/>
+        <Button x:Name="homebtn" Content="HOME" HorizontalAlignment="Left" Margin="62,45,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="/finalproject;component/resourcess/#Inter Thin" FontSize="16" Click="homebtn_Click"/>
+        <Button x:Name="shopbtn" Content="SHOP" HorizontalAlignment="Left" Margin="142,45,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="/finalproject;component/resourcess/#Inter Thin" FontSize="16" Click="shopbtn_Click"/>
+        <Image HorizontalAlignment="Left" Height="353" Margin="62,118,0,0" VerticalAlignment="Top" Width="280" Source="resourcess/sweater.png"/>
+        <Image HorizontalAlignment="Left" Height="302" Margin="501,118,0,0" VerticalAlignment="Top" Width="303" Source="resourcess/jacket.png"/>
+        <Image HorizontalAlignment="Left" Height="286" Margin="919,141,0,0" VerticalAlignment="Top" Width="286" Source="resourcess/tshirt.png"/>
+        <Image HorizontalAlignment="Left" Height="360" Margin="62,442,0,0" VerticalAlignment="Top" Width="368" Source="C:\Users\User\Downloads\uosweater.png"/>
+        <Image HorizontalAlignment="Left" Height="278" Margin="526,469,0,0" VerticalAlignment="Top" Width="278" Source="resourcess/bdg-jeans.png"/>
+        <Image HorizontalAlignment="Left" Height="278" Margin="949,469,0,0" VerticalAlignment="Top" Width="278" Source="resourcess/Frame 3 (1).png"/>
+        <Button x:Name="brownsweateradd" HorizontalAlignment="Left" Margin="175,420,0,0" VerticalAlignment="Top" Width="57" Background="{x:Null}" Height="34" BorderBrush="{x:Null}" Click="brownsweaterAddToCart">
+            <Image Source="resourcess/cart-plus-icon.png"/>
+        </Button>
+        <Button x:Name="jacketadd" HorizontalAlignment="Left" Margin="627,420,0,0" VerticalAlignment="Top" Width="57" Background="{x:Null}" Height="34" BorderBrush="{x:Null}" Click="jacketAddToCart">
+            <Image Source="resourcess/cart-plus-icon.png"/>
+        </Button>
+        <Button x:Name="tshirtadd" HorizontalAlignment="Left" Margin="1025,420,0,0" VerticalAlignment="Top" Width="57" Background="{x:Null}" Height="34" BorderBrush="{x:Null}" Click="tshirtAddToCart">
+            <Image Source="resourcess/cart-plus-icon.png"/>
+        </Button>
+        <Button x:Name="blackjacketadd" HorizontalAlignment="Left" Margin="1025,747,0,0" VerticalAlignment="Top" Width="57" Background="{x:Null}" Height="34" BorderBrush="{x:Null}" Click="blackjacketAddToCart">
+            <Image Source="resourcess/cart-plus-icon.png"/>
+        </Button>
+        <Button x:Name="cargojeansadd" HorizontalAlignment="Left" Margin="627,747,0,0" VerticalAlignment="Top" Width="57" Background="{x:Null}" Height="34" BorderBrush="{x:Null}" Click="cargojeansAddToCart">
+            <Image Source="resourcess/cart-plus-icon.png"/>
+        </Button>
+        <Button x:Name="bluesweateradd" HorizontalAlignment="Left" Margin="175,747,0,0" VerticalAlignment="Top" Width="57" Background="{x:Null}" Height="34" BorderBrush="{x:Null}" Click="bluesweaterAddToCart">
+            <Image Source="resourcess/cart-plus-icon.png"/>
+        </Button>
+    </Grid>
+</Window>

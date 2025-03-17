@@ -1,0 +1,46 @@
+﻿<Window x:Class="finalproject.Cart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:finalproject"
+        mc:Ignorable="d"
+        Title="Cart" Height="832" Width="1280" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:vtorataupotrebaDataSet3 x:Key="vtorataupotrebaDataSet3"/>
+        <CollectionViewSource x:Key="cartViewSource" Source="{Binding Cart, Source={StaticResource vtorataupotrebaDataSet3}}"/>
+    </Window.Resources>
+    <Grid Background="#FFBBBBF6" DataContext="{StaticResource cartViewSource}">
+        <Label x:Name="shoplabel" Content="vtorata upotreba" FontSize="96" HorizontalAlignment="Center" FontFamily="/finalproject;component/resourcess/#Barriecito" Foreground="White" Width="715" Margin="296,-14,262.6,684.4"/>
+        <Label x:Name="signuplabel_Copy" Content="Your Item:" HorizontalAlignment="Left" Margin="296,58,0,648.4" VerticalAlignment="Center" FontSize="48" FontFamily="/finalproject;component/resourcess/#Bungee Shade" HorizontalContentAlignment="Center" Width="669" RenderTransformOrigin="0.685,0.442" Height="96"/>
+        <TextBox x:Name="cardnumtxt" FontFamily="Global Monospace" HorizontalAlignment="Left" Height="45" Margin="384,517,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" Visibility="Hidden"/>
+        <Label x:Name="cardnumlabel" Content="Card number" HorizontalAlignment="Left" Margin="384,480,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Gill Sans Ultra Bold Condensed" Visibility="Hidden"/>
+        <TextBox x:Name="usernametxt" HorizontalAlignment="Left" Height="45" Margin="383,607,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" FontSize="24" FontFamily="Global Monospace" Visibility="Hidden"/>
+        <Label x:Name="usernamelabel" FontSize="24" Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold Condensed" Margin="384,567,0,0" Visibility="Hidden"/>
+        <Button x:Name="buynowbtn" Content="BUY NOW" HorizontalAlignment="Left" Margin="363,557,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="229" Height="60" FontSize="24" BorderBrush="White" Background="White" FontFamily="Rockwell Extra Bold" Click="buynow_Click" Foreground="#FFBBBBF6">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label x:Name="itemnamelabel" FontSize="36" Content="Item name" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold Condensed" Height="63" Margin="588,184,30.6,0" Width="655"/>
+        <Label x:Name="pricelabel" FontSize="36" Content="Price" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold Condensed" Height="63" Margin="862,257,245.6,0"/>
+        <Label x:Name="conditionlabel" FontSize="36" Content="Condition" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold Condensed" Height="63" Margin="787,315,187.6,0"/>
+        <Label x:Name="ogvaluelabel" FontSize="36" Content="Original value" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold Condensed" Height="63" Margin="735,383,110.6,0"/>
+        <Button x:Name="cancelbtn" Content="CANCEL" HorizontalAlignment="Left" Margin="670,557,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="229" Height="60" FontSize="24" BorderBrush="White" Background="White" FontFamily="Rockwell Extra Bold" Click="cancelbtn_Click" Foreground="#FFBBBBF6">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label x:Name="sizelabel" FontSize="36" Content="Size" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold Condensed" Height="63" Margin="883,435,262.6,0"/>
+        <Label x:Name="signuplabel_Copy1" Content="Item name:" HorizontalAlignment="Left" Margin="10,151,0,555.4" VerticalAlignment="Center" FontSize="48" FontFamily="/finalproject;component/resourcess/#Bungee Shade" HorizontalContentAlignment="Center" Width="669" RenderTransformOrigin="0.685,0.442" Height="96"/>
+        <Label x:Name="signuplabel_Copy2" Content="price:" HorizontalAlignment="Left" Margin="10,219,0,487.4" VerticalAlignment="Center" FontSize="48" FontFamily="/finalproject;component/resourcess/#Bungee Shade" HorizontalContentAlignment="Center" Width="669" RenderTransformOrigin="0.685,0.442" Height="96"/>
+        <Label x:Name="signuplabel_Copy3" Content="condition:" HorizontalAlignment="Left" Margin="10,282,0,424.4" VerticalAlignment="Center" FontSize="48" FontFamily="/finalproject;component/resourcess/#Bungee Shade" HorizontalContentAlignment="Center" Width="669" RenderTransformOrigin="0.685,0.442" Height="96"/>
+        <Label x:Name="signuplabel_Copy4" Content="original value:" HorizontalAlignment="Left" Margin="0,344,0,362.4" VerticalAlignment="Center" FontSize="48" FontFamily="/finalproject;component/resourcess/#Bungee Shade" HorizontalContentAlignment="Center" Width="669" RenderTransformOrigin="0.685,0.442" Height="96"/>
+        <Label x:Name="signuplabel_Copy5" Content="size:" HorizontalAlignment="Left" Margin="0,402,0,304.4" VerticalAlignment="Center" FontSize="48" FontFamily="/finalproject;component/resourcess/#Bungee Shade" HorizontalContentAlignment="Center" Width="669" RenderTransformOrigin="0.685,0.442" Height="96"/>
+
+    </Grid>
+</Window>

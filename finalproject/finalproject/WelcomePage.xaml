@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="WelcomePage" Height="832" Width="1280">
     <Grid Background="#FFBBBBF6">
-        <Image HorizontalAlignment="Left" Height="731" Margin="385,71,0,0" VerticalAlignment="Top" Width="580" Source="C:\Users\User\Desktop\ACS\12th grade\final project\finalproject\finalproject\resourcess\Frame 1 (1).png"/>
+        <Image HorizontalAlignment="Left" Height="731" Margin="385,71,0,0" VerticalAlignment="Top" Width="580" Source="\resourcess\Frame 1 (1).png"/>
         <Label Content="Reuse and Recycle" HorizontalAlignment="Left" Margin="6,213,0,0" VerticalAlignment="Top" FontFamily="/finalproject;component/resourcess/#Bungee Shade" FontSize="100" Panel.ZIndex="-58" Foreground="White"/>
-        <Image HorizontalAlignment="Left" Height="91" Margin="144,117,0,0" VerticalAlignment="Top" Width="118" Source="C:\Users\User\Desktop\ACS\12th grade\final project\finalproject\finalproject\resourcess\Frame 2.png"/>
+        <Image HorizontalAlignment="Left" Height="91" Margin="144,117,0,0" VerticalAlignment="Top" Width="118" Source="\resourcess\Frame 2.png"/>
         <Grid Margin="115,657,1220.6,438.4">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0*"/>
@@ -27,7 +27,7 @@
         <Image HorizontalAlignment="Left" Height="76" Margin="867,657,0,0" VerticalAlignment="Top" Width="98" Source="resourcess/Frame 2.png"/>
         <Image HorizontalAlignment="Left" Height="101" Margin="1126,219,0,0" VerticalAlignment="Top" Width="131" Source="resourcess/Frame 2.png"/>
         <Label x:Name="shoplabel" Content="vtorata upotreba" FontSize="96" HorizontalAlignment="Center" FontFamily="/finalproject;component/resourcess/#Barriecito" Foreground="White" Width="715" Margin="296,-14,262.6,684.4"/>
-        <Image HorizontalAlignment="Left" Height="360" Margin="894,432,0,0" VerticalAlignment="Top" Width="368" Source="C:\Users\User\Downloads\uosweater.png"/>
+        <Image HorizontalAlignment="Left" Height="360" Margin="894,432,0,0" VerticalAlignment="Top" Width="368" Source="resourcess\uosweater.png"/>
         <Button x:Name="homebtn" Content="HOME" HorizontalAlignment="Left" Margin="62,55,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="/finalproject;component/resourcess/#Inter Thin" FontSize="16" Click="homebtn_Click"/>
         <Button x:Name="shopbtn" Content="SHOP" HorizontalAlignment="Left" Margin="142,55,0,0" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="/finalproject;component/resourcess/#Inter Thin" FontSize="16" Click="shopbtn_Click"/>
     </Grid>

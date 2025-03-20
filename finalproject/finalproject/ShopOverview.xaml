@@ -13,7 +13,7 @@
         <Image HorizontalAlignment="Left" Height="353" Margin="62,118,0,0" VerticalAlignment="Top" Width="280" Source="resourcess/sweater.png"/>
         <Image HorizontalAlignment="Left" Height="302" Margin="501,118,0,0" VerticalAlignment="Top" Width="303" Source="resourcess/jacket.png"/>
         <Image HorizontalAlignment="Left" Height="286" Margin="919,141,0,0" VerticalAlignment="Top" Width="286" Source="resourcess/tshirt.png"/>
-        <Image HorizontalAlignment="Left" Height="360" Margin="62,442,0,0" VerticalAlignment="Top" Width="368" Source="C:\Users\User\Downloads\uosweater.png"/>
+        <Image HorizontalAlignment="Left" Height="360" Margin="62,442,0,0" VerticalAlignment="Top" Width="368" Source="resourcess/uosweater.png"/>
         <Image HorizontalAlignment="Left" Height="278" Margin="526,469,0,0" VerticalAlignment="Top" Width="278" Source="resourcess/bdg-jeans.png"/>
         <Image HorizontalAlignment="Left" Height="278" Margin="949,469,0,0" VerticalAlignment="Top" Width="278" Source="resourcess/Frame 3 (1).png"/>
         <Button x:Name="brownsweateradd" HorizontalAlignment="Left" Margin="175,420,0,0" VerticalAlignment="Top" Width="57" Background="{x:Null}" Height="34" BorderBrush="{x:Null}" Click="brownsweaterAddToCart">

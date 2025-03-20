@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|c:\\users\\20231034\\onedrive - tu eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\aftershopping.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|solutionrelative:finalproject\\aftershopping.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|c:\\users\\20231034\\onedrive - tu eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|solutionrelative:finalproject\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|c:\\users\\20231034\\onedrive - tu eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\shopoverview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|solutionrelative:finalproject\\shopoverview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|c:\\users\\20231034\\onedrive - tu eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|solutionrelative:finalproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|c:\\users\\20231034\\onedrive - tu eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|solutionrelative:finalproject\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|c:\\users\\20231034\\onedrive - tu eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\cart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|solutionrelative:finalproject\\cart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|c:\\users\\20231034\\onedrive - tu eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46C79A01-F0F1-4E03-8657-047170C379B7}|finalproject\\finalproject.csproj|solutionrelative:finalproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopOverview.xaml",
+              "DocumentMoniker": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\ShopOverview.xaml",
+              "RelativeDocumentMoniker": "finalproject\\ShopOverview.xaml",
+              "ToolTip": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\ShopOverview.xaml",
+              "RelativeToolTip": "finalproject\\ShopOverview.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T10:40:27.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "finalproject\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\MainWindow.xaml",
+              "RelativeToolTip": "finalproject\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T10:40:24.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\Login.xaml",
+              "RelativeDocumentMoniker": "finalproject\\Login.xaml",
+              "ToolTip": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\Login.xaml",
+              "RelativeToolTip": "finalproject\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T10:39:50.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cart.xaml",
+              "DocumentMoniker": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\Cart.xaml",
+              "RelativeDocumentMoniker": "finalproject\\Cart.xaml",
+              "ToolTip": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\Cart.xaml",
+              "RelativeToolTip": "finalproject\\Cart.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T10:39:22.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\App.xaml",
+              "RelativeDocumentMoniker": "finalproject\\App.xaml",
+              "ToolTip": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\App.xaml",
+              "RelativeToolTip": "finalproject\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T10:39:13.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WelcomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\WelcomePage.xaml",
+              "RelativeDocumentMoniker": "finalproject\\WelcomePage.xaml",
+              "ToolTip": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\WelcomePage.xaml",
+              "RelativeToolTip": "finalproject\\WelcomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T10:36:11.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AfterShopping.xaml",
+              "DocumentMoniker": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\AfterShopping.xaml",
+              "RelativeDocumentMoniker": "finalproject\\AfterShopping.xaml",
+              "ToolTip": "C:\\Users\\20231034\\OneDrive - TU Eindhoven\\personal\\thrift_shop-main\\thrift_shop-main\\finalproject\\finalproject\\AfterShopping.xaml",
+              "RelativeToolTip": "finalproject\\AfterShopping.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T10:35:58.326Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

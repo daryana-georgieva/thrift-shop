@@ -13,7 +13,7 @@
     <Grid Background="#FFBBBBF6" DataContext="{StaticResource ordersViewSource}">
         <Image HorizontalAlignment="Left" Height="533" Margin="807,269,0,0" VerticalAlignment="Top" Width="457" Source="resourcess/coolguys.png"/>
         <Label x:Name="shoplabel" Content="vtorata upotreba" FontSize="96" HorizontalAlignment="Center" FontFamily="/finalproject;component/resourcess/#Barriecito" Foreground="White" Width="715" Margin="296,-14,262.6,684.4"/>
-        <Label x:Name="usernamelbl"  HorizontalAlignment="Left" Margin="142,94,0,0" VerticalAlignment="Top" Height="281" Width="1053" FontSize="72" FontFamily="/finalproject;component/resourcess/#Bungee Shade"/>
+        <Label x:Name="usernamelbl" Content="Your Order:" HorizontalAlignment="Left" Margin="299,169,0,0" VerticalAlignment="Top" Height="281" Width="1053" FontSize="72" FontFamily="/finalproject;component/resourcess/#Bungee Shade"/>
         <DataGrid HorizontalAlignment="Left" Height="202" Margin="202,450,0,0" VerticalAlignment="Top" Width="469" ItemsSource="{Binding}"/>
         <Label x:Name="signuplabel_Copy" Content="Your Order:" HorizontalAlignment="Left" Margin="103,354,0,352.4" VerticalAlignment="Center" FontSize="48" FontFamily="/finalproject;component/resourcess/#Bungee Shade" HorizontalContentAlignment="Center" Width="669" RenderTransformOrigin="0.685,0.442" Height="96"/>
 

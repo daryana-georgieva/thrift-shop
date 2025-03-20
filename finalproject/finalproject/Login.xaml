@@ -34,8 +34,8 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Image HorizontalAlignment="Left" Height="302" Margin="290,243,0,0" VerticalAlignment="Top" Width="303" Source="C:\Users\User\Desktop\ACS\12th grade\final project\finalproject\finalproject\resourcess\jacket.png"/>
-        <Image HorizontalAlignment="Left" Height="286" Margin="52,505,0,0" VerticalAlignment="Top" Width="286" Source="C:\Users\User\Desktop\ACS\12th grade\final project\finalproject\finalproject\resourcess\tshirt.png"/>
+        <Image HorizontalAlignment="Left" Height="302" Margin="290,243,0,0" VerticalAlignment="Top" Width="303" Source="resourcess\jacket.png"/>
+        <Image HorizontalAlignment="Left" Height="286" Margin="52,505,0,0" VerticalAlignment="Top" Width="286" Source="resourcess\tshirt.png"/>
         <Image HorizontalAlignment="Left" Height="141" Margin="0,404,0,0" VerticalAlignment="Top" Width="182" Source="resourcess/Frame 2.png"/>
         <Image HorizontalAlignment="Left" Height="141" Margin="443,661,0,-1.4" VerticalAlignment="Top" Width="182" Source="resourcess/Frame 2.png" Grid.ColumnSpan="2"/>
         <Image HorizontalAlignment="Left" Height="353" Margin="15,122,0,0" VerticalAlignment="Top" Width="280" Source="resourcess/sweater.png"/>
